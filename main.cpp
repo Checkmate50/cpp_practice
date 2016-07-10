@@ -18,7 +18,7 @@ int main(int argc, char* argv[]) {
 		run();
 	}
 	else if (folder == 1) {
-		//test1();
+		test1();
 	}
 
 	return 0;

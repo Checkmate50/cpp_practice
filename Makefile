@@ -1,6 +1,6 @@
 CXXFLAGS =	-O2 -g -Wall -fmessage-length=0
 
-OBJS =		main.o checker.o
+OBJS =		main.o checker.o 1-Basics/functions.o 1-Basics/tester.o
 
 LIBS =
 
