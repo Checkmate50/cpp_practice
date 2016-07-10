@@ -1,5 +1,5 @@
 /*
- * tester.cpp
+ * 1/tester.cpp
  *
  *  Created on: Jul 10, 2016
  *      Author: checkmate
@@ -118,7 +118,7 @@ bool test(std::string name, int f(int, int), int a, int b, int r) {
 	try {
 		int result = f(a, b);
 		if (result != r) {
-			std::cout << "The call " << name << " (" << a << ", " << b <<
+			std::cout << "The call " << name << "(" << a << ", " << b <<
 					") gave the result " << result << " (" << r << " expected)" << std::endl;
 			return true;
 		}
@@ -135,7 +135,7 @@ bool test(std::string name, bool f(int, int), int a, int b, bool r) {
 	try {
 		bool result = f(a, b);
 		if (result != r) {
-			std::cout << "The call " << name << " (" << a << ", " << b <<
+			std::cout << "The call " << name << "(" << a << ", " << b <<
 					") gave the result " << result << " (" << r << " expected)" << std::endl;
 			return true;
 		}
@@ -152,7 +152,7 @@ bool test(std::string name, int f(int, int, int), int a, int b, int c, int r) {
 	try {
 		int result = f(a, b, c);
 		if (result != r) {
-			std::cout << "The call " << name << " (" << a << ", " << b << ", " << c <<
+			std::cout << "The call " << name << "(" << a << ", " << b << ", " << c <<
 					") gave the result " << result << " (" << r << " expected)" << std::endl;
 			return true;
 		}
@@ -169,7 +169,7 @@ bool test(std::string name, int f(int), int a, int r) {
 	try {
 		int result = f(a);
 		if (result != r) {
-			std::cout << "The call " << name << " (" << a <<
+			std::cout << "The call " << name << "(" << a <<
 					") gave the result " << result << " (" << r << " expected)" << std::endl;
 			return true;
 		}
