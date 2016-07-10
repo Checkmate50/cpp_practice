@@ -1,6 +1,6 @@
 CXXFLAGS =	-O2 -g -Wall -fmessage-length=0
 
-OBJS =		cpp_practice.o
+OBJS =		main.o checker.o
 
 LIBS =
 

@@ -5,9 +5,21 @@
  *      Author: checkmate
  */
 
-#include <iostream>
+#include <stdlib.h>
+#include "checker.hpp"
 
-int main() {
-	std::cout << "Hello World!" << std::endl;
+int main(int argc, char* argv[]) {
+	int folder = 0;
+	char* end;
+	if (argc > 1)
+		folder = strtol(argv[1], &end, 10);
+
+	if (folder == 0) {
+		run();
+	}
+	else if (folder == 1) {
+		//test1();
+	}
+
 	return 0;
 }
