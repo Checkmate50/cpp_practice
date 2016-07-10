@@ -8,6 +8,8 @@
 #ifndef BASICS_TESTER_HPP_
 #define BASICS_TESTER_HPP_
 
+#include <string>
+
 void test1();
 
 //private

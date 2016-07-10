@@ -11,8 +11,6 @@
 #include "checker.hpp"
 #include "1-Basics/functions.hpp"
 
-using namespace std;
-
 void run() {
-	cout << mult(1, 4) << endl;
+	std::cout << mult(1, 4) << std::endl;
 }

@@ -7,6 +7,7 @@
 
 #include <stdlib.h>
 #include "checker.hpp"
+#include "1-Basics/tester.hpp"
 
 int main(int argc, char* argv[]) {
 	int folder = 0;

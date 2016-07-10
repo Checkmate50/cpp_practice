@@ -93,7 +93,7 @@ int test_log_2(int& ntests) {
 	ntests = 6;
 	errors += test("log_2", log_2, 2, 1);
 	errors += test("log_2", log_2, 5, 2);
-	errors += test("log_2", log_2, 30, 5);
+	errors += test("log_2", log_2, 30, 4);
 	errors += test("log_2", log_2, 1024, 10);
 	errors += test("log_2", log_2, 1, 0);
 	errors += test("log_2", log_2, 3000, 11);
