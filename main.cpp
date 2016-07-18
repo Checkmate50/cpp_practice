@@ -9,6 +9,7 @@
 #include "checker.hpp"
 #include "1-Basics/tester.hpp"
 #include "2-Functions/tester.hpp"
+#include "3-Arrays/tester.hpp"
 
 int main(int argc, char* argv[]) {
 	int folder = 0;
@@ -25,7 +26,9 @@ int main(int argc, char* argv[]) {
 	else if (folder == 2) {
 		test2();
 	}
-
+	else if (folder == 3) {
+		test3();
+	}
 
 	return 0;
 }
